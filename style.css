@@ -22,12 +22,16 @@ body {
     background-color: #fdfdfd;
     box-shadow: 0 4px 10px #b3a6b4;
     }
-.menu{
+.menu ul{
 display: flex;
 justify-content: space-between;
 margin: 20px auto;
 padding: 15px;
 align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: inherit;
 }
 .two-columns{
     display: grid;
@@ -83,4 +87,8 @@ justify-content: space-between;
 margin: 20px auto;
 padding: 15px;
 align-items: center;
+}
+footer a{
+text-decoration: none;
+color: inherit;
 }
