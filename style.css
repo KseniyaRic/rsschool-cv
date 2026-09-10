@@ -7,7 +7,7 @@ body {
     padding: 15px;
     background-color: #f8f6f8;
     font-family: "Cormorant Garamond", serif;
-    font-size: 16px;
+    font-size: 19px;
     color: #2b212c;
     line-height: 2,5;
 
@@ -22,6 +22,17 @@ body {
     background-color: #fdfdfd;
     box-shadow: 0 4px 10px #b3a6b4;
     }
+.menu ul{
+display: flex;
+justify-content: space-between;
+margin: 20px auto;
+padding: 15px;
+align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: inherit;
+}
 .two-columns{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -52,7 +63,7 @@ text-align: justify;
 padding: 15px;
 }
 .right-column{
-padding-top: 150px;
+padding-top: 100px;
 overflow: hidden;
 gap: 20px;
 background-color: #dfcdc7af;
@@ -61,13 +72,11 @@ background-color: #dfcdc7af;
 .code,
 .work,
 .education,
-.language {
+.languages {
 padding: 15px;
 overflow: hidden;
-gap: 20px
-}
-.education{
-    list-style-position: inside;
+list-style-position: inside;
+gap: 20px;
 }
 code{
 font-family: inherit;
@@ -78,4 +87,8 @@ justify-content: space-between;
 margin: 20px auto;
 padding: 15px;
 align-items: center;
+}
+footer a{
+text-decoration: none;
+color: inherit;
 }
