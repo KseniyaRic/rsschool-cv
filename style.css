@@ -61,13 +61,11 @@ background-color: #dfcdc7af;
 .code,
 .work,
 .education,
-.language {
+.languages {
 padding: 15px;
 overflow: hidden;
-gap: 20px
-}
-.education{
-    list-style-position: inside;
+list-style-position: inside;
+gap: 20px;
 }
 code{
 font-family: inherit;
