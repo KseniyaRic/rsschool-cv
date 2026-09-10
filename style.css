@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 15px;
+    background-color: #f8f6f8;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 19px;
+    color: #2b212c;
+    line-height: 2,5;
+
+}
+.cv-container {
+    display: block;
+    position: relative;
+    width: 1000px;
+    height: auto;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fdfdfd;
+    box-shadow: 0 4px 10px #b3a6b4;
+    }
+.menu ul{
+display: flex;
+justify-content: space-between;
+margin: 20px auto;
+padding: 15px;
+align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: inherit;
+}
+.two-columns{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+}
+.left-column{
+    text-align: center;
+    padding: 15px;
+    background-color: #dfcdc7af;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px #2b212c;
+}
+h1{
+    text-align: center;
+}
+.contact{
+text-align: left;
+padding: 15px;
+}
+.info h2{
+    text-align: center;
+}
+.info{
+text-align: justify;
+padding: 15px;
+}
+.right-column{
+padding-top: 100px;
+overflow: hidden;
+gap: 20px;
+background-color: #dfcdc7af;
+}
+.skills,
+.code,
+.work,
+.education,
+.languages {
+padding: 15px;
+overflow: hidden;
+list-style-position: inside;
+gap: 20px;
+}
+code{
+font-family: inherit;
+}
+footer{
+display: flex;
+justify-content: space-between;
+margin: 20px auto;
+padding: 15px;
+align-items: center;
+}
+footer a{
+text-decoration: none;
+color: inherit;
+}
