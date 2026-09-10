@@ -58,6 +58,9 @@ h1{
 text-align: left;
 padding: 15px;
 }
+.info h2{
+    text-align: center;
+}
 .info{
 text-align: justify;
 padding: 15px;
