@@ -7,7 +7,7 @@ body {
     padding: 15px;
     background-color: #f8f6f8;
     font-family: "Cormorant Garamond", serif;
-    font-size: 16px;
+    font-size: 19px;
     color: #2b212c;
     line-height: 2,5;
 
@@ -22,6 +22,13 @@ body {
     background-color: #fdfdfd;
     box-shadow: 0 4px 10px #b3a6b4;
     }
+.menu{
+display: flex;
+justify-content: space-between;
+margin: 20px auto;
+padding: 15px;
+align-items: center;
+}
 .two-columns{
     display: grid;
     grid-template-columns: 1fr 2fr;
