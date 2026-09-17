@@ -3,24 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe House</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cutive+Mono&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <title>Coffe House</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class = main page>
-            <ul>
-                <li><img src="logo.png" alt="caffe logo" width="40px" height="40px"></li>
-                <li><a href="#FavoriteCoffe">Favorite coffee</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#MobileApp">Mobile app</a></li>
-                <li><a href="#ContactUs">Contact us</a></li>
-                <li><img src="Theme switch.png" alt="night switch"></li>
-                <li><img src="menu-item.png" alt="menu pic"></li>
-            </ul>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+
+                <a class="logo" href="#">
+                    <img src="logo.svg" alt="caffe logo" width="100px" height="60px">
+                </a>
+                <nav class="navigation">
+                    <ul class="menu_list" style="list-style-type:none">
+                        <li class="menu_name">
+                            <a class="menu_link" href="#">
+                            Favorite coffee
+                            </a>
+                        </li>
+                        <li class="menu_name">
+                            <a class="menu_link" href="#">
+                            About
+                            </a>
+                        </li>
+                        <li class="menu_name">
+                            <a class="menu_link" href="#">
+                            Mobile app
+                            </a>
+                        </li>
+                        <li class="menu_name">
+                            <a class="menu_link" href="#">
+                            Contact us
+                            </a>
+                        </li>
+                </nav>
+                        <a class="menu_item" href="#">
+                            <img src="menu-item.svg" alt="menu coffe cup">
+                        </a>
+                        </div>
+
+                <div class="container-hero">
+                    <video class="background-video" autoplay muted loop>
+                        <source src="video.mp4" type="video/mp4">
+                    </video>
+                    <h1><span>Enjoy</span> premium coffee at our charming cafe</h1>
+                    <p class="content">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
+                    <a class="button-primary" href="#">
+                        <img src="State=default (1).svg" alt="button-primary">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        </header>
+        <main>
+            <section class="favorite-coffe">
 
 
-</body>
+            </section>
+        </main>
+    </body>
 </html>
