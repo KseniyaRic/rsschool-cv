@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-inner">
-                <a class="logo" href="#">
+    <header class="header-container">
+        <div class="logo">
+              <a href="#">
                     <img src="logo.svg" alt="coffee logo" width="100px" height="60px">
                 </a>
+                </div>
                 <nav class="navigation">
                     <ul class="menu_list" style="list-style-type:none">
                         <li class="menu_name">
@@ -41,8 +41,16 @@
                         </li>
                         </ul>
                 </nav>
-                        <a class="menu_item" href="#">
-                            <img src="menu-item.svg" alt="menu coffee cup">
+                <div class="header-actions">
+                    <div class="theme-status">
+                        <button class="theme-switch" aria-label="theme-switch">
+                            <img src="Light.svg" alt="light-version">
+                            <img src="Dark.svg" alt="dark-version">
+                        </button>
+                    </div>
+                        <a href="#menu" class="menu-button">
+                            <span>Menu</span>
+                            <img src="coffee-cup.svg" alt="menu coffee cup">
                         </a>
                         </div>
                     </header>
