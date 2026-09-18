@@ -2,7 +2,6 @@
   margin: 0 auto;
   max-width: 1440px;
   scroll-behavior: smooth;
-  //*outline: 1px solid #000; //*не забыть убрать*/
 }
 body{
   background-color: #E1D4C9;
@@ -259,16 +258,66 @@ text-align: center;
 .about {
   margin: 40px auto 80px auto;
 }
-.left-column,
-.right-column {
+.container-about {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-flex-direction: column;
 gap: 40px;
 width: 100%;
-margin-top: 40px;
-margin-bottom: 40px;
 }
 img {
-  border-radius: 40px;
+border-radius: 40px;
+object-fit: cover;
+}
+.left-column,
+.right-column{
+display: flex;
+flex-direction: column;
+gap: 40px;
+width: 100%
+}
+.mobile-app {
+width: 100%;
+display: block;
+margin-bottom: 100px;
+}
+.container-mobile-app{
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.text-mobile{
+  font-size: 16px;
+  font-style: normal;
+  text-align: justify;
+}
+.app-links,{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+gap: 20px;
+width: 100%
+margin-left: 0;
+margin-right: auto
+align-items: center;
+}
+.mobile-left{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+}
+.app-store,
+.google-play {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+background: transparent;
 }
