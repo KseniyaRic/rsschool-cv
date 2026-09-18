@@ -12,6 +12,7 @@
 </head>
 <body>
     <header class="header-container">
+        <div class="header-inner">
         <div class="logo">
               <a href="#">
                     <img src="logo.svg" alt="coffee logo" width="100px" height="60px">
@@ -45,7 +46,7 @@
                     <div class="theme-status">
                         <button class="theme-switch" aria-label="theme-switch">
                             <img src="Light.svg" alt="light-version">
-                            <img src="Dark.svg" alt="dark-version">
+                            <img class="moon" src="Moon.svg" alt="dark-version">
                         </button>
                     </div>
                         <a href="#menu" class="menu-button">
@@ -53,18 +54,21 @@
                             <img src="coffee-cup.svg" alt="menu coffee cup">
                         </a>
                         </div>
+                        </div>
                     </header>
                     <main>
-                <div class="container-hero">
-                    <video class="background-video" autoplay muted loop>
+                <section class="hero">
+                    <video class="background-video" autoplay muted loop playsinline>
                         <source src="video.mp4" type="video/mp4">
                     </video>
-                    <h1><span>Enjoy</span> premium coffee at our charming cafe</h1>
-                    <p class="content">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
-                    <a class="button-primary" href="#">
-                        <img src="State=default (1).svg" alt="button-primary">
-                    </a>
-                </div>
+                    <div class="container-hero">
+                        <div class="hero-content">
+                    <h1 class="hero-title"><span>Enjoy</span> premium coffee at our charming cafe</h1>
+                    <p class="hero-text">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
+                    <a href="#menu" class="menu-button">Menu</a>
+                       </div>
+                       </div>
+                </section>
             </div>
         </div>
             <section class="favorite-coffe">
